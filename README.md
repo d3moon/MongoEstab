@@ -20,6 +20,10 @@ O formulário para Adicionar e Editar os dados podem ser em outra tela ou em mod
   docker-compose up
 ```
 
+#
+
+**Instalação local do Desafio 4:**
+
 ## Variáveis de Ambiente
 
 Crie um .env na raiz do diretório do projeto e adicione essas variáveis:
@@ -29,8 +33,6 @@ Crie um .env na raiz do diretório do projeto e adicione essas variáveis:
   MONGODB_URI=mongodb://localhost:27017/
 ```
 
-
-**Instalação local do Desafio 4:**
 
 ```bash
   cd MongoEstab
