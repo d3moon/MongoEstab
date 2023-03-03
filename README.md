@@ -26,7 +26,7 @@ O formulário para Adicionar e Editar os dados podem ser em outra tela ou em mod
 ```bash
   cd MongoEstab
   pip install -r requirements.txt
-  python main.py
+  python app.py
 ```
 
 
