@@ -15,6 +15,7 @@ O formulário para Adicionar e Editar os dados podem ser em outra tela ou em mod
 
 ```bash
   cd EstabProcess
+  docker stop $(docker ps -q) 
   docker-compose build
   docker-compose up
 ```
