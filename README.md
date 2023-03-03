@@ -14,8 +14,7 @@ O formulário para Adicionar e Editar os dados podem ser em outra tela ou em mod
 *Por problemas de conexão de container não consegui conectar a tempo os registros do MongoDB do desafio1 via container com o desafio 4, porém funciona acessando de maneira local o desafio 4 e subindo a imagem do desafio 1 normalmente*
 
 ```bash
-  git clone https://github.com/d3moon/EstabProcess
-  cd estabprocess
+  cd MongoEstab
   docker-compose build
   docker-compose up
 ```
@@ -24,7 +23,7 @@ O formulário para Adicionar e Editar os dados podem ser em outra tela ou em mod
 **Instalação local do Desafio 4:**
 
 ```bash
-  cd mongoestab
+  cd MongoEstab
   pip install -r requirements.txt
   python main.py
 ```
