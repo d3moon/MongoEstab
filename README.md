@@ -20,6 +20,15 @@ O formulário para Adicionar e Editar os dados podem ser em outra tela ou em mod
   docker-compose up
 ```
 
+## Variáveis de Ambiente
+
+Crie um .env na raiz do diretório do projeto e adicione essas variáveis:
+
+```bash 
+  SECRET_KEY=mysecretkey
+  MONGODB_URI=mongodb://localhost:27017/
+```
+
 
 **Instalação local do Desafio 4:**
 
@@ -28,17 +37,6 @@ O formulário para Adicionar e Editar os dados podem ser em outra tela ou em mod
   pip install -r requirements.txt
   python app.py
 ```
-
-
-## Variáveis de Ambiente
-
-Crie um .env na raiz do diretório do projeto e adicione essas variáveis:
-
-``SECRET_KEY=mysecretkey``
-
-``MONGODB_URI=mongodb://localhost:27017/`` 
-
-
     
 ## Authors
 
